@@ -25,7 +25,7 @@
     </style>
     <div>
     <button class="button">Generate Insights</button>
-    <img src="https://prakashgariya.github.io/GenAI_Exp/BA.png" alt="Finance Analyst"/>
+    <img id="image" src="https://prakashgariya.github.io/GenAI_Exp/Bulb.png" alt="Finance Analyst"/>
     <textarea id="textArea" name="textArea" class="textarea">Generated Insights will show up here</textarea>
     </div>
     `;
