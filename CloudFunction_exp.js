@@ -21,8 +21,7 @@
         width:100%;
         height:514px;
     }
-    
-    img {
+    .img {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -31,7 +30,7 @@
     </style>
     <div>
     <button class="button">Generate Insights</button>
-    <img id="image" src="https://prakashgariya.github.io/GenAI_Exp/Bulb.png" alt="Finance Analyst" />
+    <img id="image" class="img" src="https://prakashgariya.github.io/GenAI_Exp/Bulb.png" alt="Finance Analyst" width="200px" height="450px"/>
     <textarea id="textArea" name="textArea" class="textarea">Generated Insights will show up here</textarea>
     </div>
     `;
