@@ -70,5 +70,5 @@
         }
     }
 
-    customElements.define('sac-cloudfunction', CloudFunction);
+    customElements.define('sac-cloudfunction-exp', CloudFunction);
 })();
