@@ -30,7 +30,7 @@
     </style>
     <div>
     <button class="button">Generate Insights</button>
-    <img id="image" class="img" src="https://prakashgariya.github.io/GenAI_Exp/Bulb.png" alt="Finance Analyst" width="200px" height="450px"/>
+    <img id="image" class="img" src="https://prakashgariya.github.io/GenAI_Exp/VishalKrish.png" alt="Finance Analyst" width="200px" height="450px"/>
     <textarea id="textArea" name="textArea" class="textarea">Generated Insights will show up here</textarea>
     </div>
     `;
@@ -53,6 +53,8 @@
             var textArea = this.shadowRoot.getElementById('textArea');
             var image = this.shadowRoot.getElementById('image');
             image.hidden = true;
+            // this._shadowRoot.querySelector(".img").style.display = "None";
+            image.style.display = "None";
             textArea.hidden = false;
             textArea.value = "Fetching Insights....";
             jQuery.ajax({
