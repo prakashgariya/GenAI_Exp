@@ -41,8 +41,8 @@
             this._shadowRoot.appendChild(template.content.cloneNode(true));
 
             //this._button = this._shadowRoot.querySelector('button');
-            this._iamge = this._shadowRoot.getElementById('image')
-            this._button.addEventListener('click', this._onButtonClick.bind(this));
+            this._image = this._shadowRoot.getElementById('image')
+            this._image.addEventListener('click', this._onButtonClick.bind(this));
 
             this._shadowRoot.querySelector('textArea').hidden = true;
 
