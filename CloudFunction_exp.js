@@ -16,7 +16,7 @@
     
     </style>
     <div>
-    <img id="image" class="img" src="https://prakashgariya.github.io/GenAI_Exp/VishalKrish.png" alt="Finance Analyst" width="200px" height="450px"/>
+    <img id="image" class="img" src="https://prakashgariya.github.io/GenAI_Exp/Insights.png" alt="Finance Analyst" width="215px" height="226px"/>
     <textarea id="textArea" name="textArea" class="textarea">Generated Insights will show up here</textarea>
     </div>
     `;
