@@ -27,7 +27,7 @@
         margin-right: auto;
     }
     .img:hover {
-        transform: scale(1.1) !important;
+        transform: scale(-0.5) !important;
     }
     h2{
         color: #0088ff;
