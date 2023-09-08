@@ -35,7 +35,7 @@
         margin-bottom: unset !important;
     }
     .bulbIcon{
-        background: url('https://prakashgariya.github.io/GenAI_Exp/Bulb_Trans.png');
+        background: url(https://prakashgariya.github.io/GenAI_Exp/Bulb_Trans.png);
         height: auto;
         width: auto;
         display: block;
