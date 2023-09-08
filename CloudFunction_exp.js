@@ -4,6 +4,19 @@
     let template = document.createElement("template");
     template.innerHTML = `
     <style>
+    .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            width:100%;
+        }
     .textarea {
         width:100%;
         height:514px;
@@ -28,11 +41,13 @@
     
     </style>
     <div>
-    <h2><i class="bulbIcon"></i><u> Insights.......</u></h2>
-    <img id="image" class="img" src="https://prakashgariya.github.io/GenAI_Exp/Insigh_ppt_trans.png" alt="Finance Analyst" width="215px" height="226px"/>
+    
+    <button class="button">Insights......</button>
+    <img id="image" class="img" src="https://prakashgariya.github.io/GenAI_Exp/Insigh_ppt_trans.png" alt="Finance Analyst" width="300px" height="300px"/>
     <textarea id="textArea" name="textArea" class="textarea">Generated Insights will show up here</textarea>
     </div>
     `;
+//<h2><i class="bulbIcon"></i><u> Insights.......</u></h2>
 //<button class="button">Generate Insights</button>
 // .button {
 //     background-color: #4CAF50;
