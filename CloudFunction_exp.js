@@ -13,10 +13,20 @@
         margin-left: auto;
         margin-right: auto;
     }
+    h2{
+        color: #0088ff;
+    }
+    .bulbIcon{
+        background: url('https://prakashgariya.github.io/GenAI_Exp/Bulb_Trans.png');
+        height: auto;
+        width: auto;
+        display: block;
+    }
     
     </style>
     <div>
-    <img id="image" class="img" src="https://prakashgariya.github.io/GenAI_Exp/Insights.png" alt="Finance Analyst" width="215px" height="226px"/>
+    <h2><i class="bulbIcon"></i><u>Insights</u></h2>
+    <img id="image" class="img" src="https://prakashgariya.github.io/GenAI_Exp/Insigh_ppt_trans.png" alt="Finance Analyst" width="215px" height="226px"/>
     <textarea id="textArea" name="textArea" class="textarea">Generated Insights will show up here</textarea>
     </div>
     `;
