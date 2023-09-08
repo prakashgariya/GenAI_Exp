@@ -31,6 +31,7 @@
     }
     h2{
         color: #0088ff;
+        border-bottom-style: solid !important;
     }
     .bulbIcon{
         background: url('https://prakashgariya.github.io/GenAI_Exp/Bulb_Trans.png');
@@ -41,13 +42,13 @@
     
     </style>
     <div>
+    <h2><i class="bulbIcon"></i>Insights</h2>
     
-    <button class="button">Insights......</button>
     <img id="image" class="img" src="https://prakashgariya.github.io/GenAI_Exp/Insigh_ppt_trans.png" alt="Finance Analyst" width="300px" height="300px"/>
     <textarea id="textArea" name="textArea" class="textarea">Generated Insights will show up here</textarea>
     </div>
     `;
-//<h2><i class="bulbIcon"></i><u> Insights.......</u></h2>
+//<button class="button">Insights......</button>
 //<button class="button">Generate Insights</button>
 // .button {
 //     background-color: #4CAF50;
