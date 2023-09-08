@@ -32,6 +32,7 @@
     h2{
         color: #0088ff;
         border-bottom-style: solid !important;
+        margin-bottom: unset !important;
     }
     .bulbIcon{
         background: url('https://prakashgariya.github.io/GenAI_Exp/Bulb_Trans.png');
@@ -42,9 +43,8 @@
     
     </style>
     <div>
-    <h2><i class="bulbIcon"></i>Insights</h2>
-    
-    <img id="image" class="img" src="https://prakashgariya.github.io/GenAI_Exp/Insigh_ppt_trans.png" alt="Finance Analyst" width="300px" height="300px"/>
+    <h2><i class="bulbIcon"></i>&nbsp&nbsp&nbsp&nbspInsights</h2>
+    <img id="image" class="img" src="https://prakashgariya.github.io/GenAI_Exp/Insigh_ppt_trans.png" alt="Finance Analyst" width="292px" height="300px"/>
     <textarea id="textArea" name="textArea" class="textarea">Generated Insights will show up here</textarea>
     </div>
     `;
