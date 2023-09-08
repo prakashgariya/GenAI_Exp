@@ -13,6 +13,9 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .img:hover {
+        transform: scale(1.1) !important;
+    }
     h2{
         color: #0088ff;
     }
@@ -25,7 +28,7 @@
     
     </style>
     <div>
-    <h2><i class="bulbIcon"></i><u>Insights</u></h2>
+    <h2><i class="bulbIcon"></i><u> Insights.......</u></h2>
     <img id="image" class="img" src="https://prakashgariya.github.io/GenAI_Exp/Insigh_ppt_trans.png" alt="Finance Analyst" width="215px" height="226px"/>
     <textarea id="textArea" name="textArea" class="textarea">Generated Insights will show up here</textarea>
     </div>
